@@ -31,7 +31,7 @@ if (\ABDALPHPWAF\REQMETHOD::request_methods_only_allow('POST') == 'allow'){
      echo "this HTTP request method is unauthorized";
 }
 ```
-
+Support http method : GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,PATCH
 
 
 ### About Programmer
