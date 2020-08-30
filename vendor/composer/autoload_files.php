@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '42da17ce93f94fdac23e59b4e4c4bff5' => $baseDir . '/abdal-security-agency/abdal-php-waf/src/firewall-core.php',
+    '635951cbbd185f1b77a4107057307404' => $baseDir . '/abdal-php-waf/src/firewall-core.php',
 );

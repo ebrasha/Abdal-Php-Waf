@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd43a31bca344d6a413c942a53202940e
+class ComposerStaticInit7a964b5ea99ae2592d32b3933d21f9ed
 {
     public static $files = array (
-        '42da17ce93f94fdac23e59b4e4c4bff5' => __DIR__ . '/../..' . '/abdal-security-agency/abdal-php-waf/src/firewall-core.php',
+        '635951cbbd185f1b77a4107057307404' => __DIR__ . '/../..' . '/abdal-php-waf/src/firewall-core.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -20,15 +20,15 @@ class ComposerStaticInitd43a31bca344d6a413c942a53202940e
     public static $prefixDirsPsr4 = array (
         'ABDALPHPWAF\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/abdal-security-agency/abdal-php-waf/src',
+            0 => __DIR__ . '/../..' . '/abdal-php-waf/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd43a31bca344d6a413c942a53202940e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd43a31bca344d6a413c942a53202940e::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7a964b5ea99ae2592d32b3933d21f9ed::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7a964b5ea99ae2592d32b3933d21f9ed::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

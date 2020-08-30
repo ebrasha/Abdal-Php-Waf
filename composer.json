@@ -11,9 +11,9 @@
     ],
 	  "autoload": {
     "psr-4": {
-      "ABDALPHPWAF\\": "abdal-security-agency/abdal-php-waf/src/"
+      "ABDALPHPWAF\\": "abdal-php-waf/src/"
     },
-    "files": ["abdal-security-agency/abdal-php-waf/src/firewall-core.php"]
+    "files": ["abdal-php-waf/src/firewall-core.php"]
   },
     "minimum-stability": "stable",
      "require": {

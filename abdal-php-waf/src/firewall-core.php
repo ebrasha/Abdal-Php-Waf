@@ -10,13 +10,8 @@
 
 namespace ABDALPHPWAF;
 
-class Security{
-    public static function test(){
-        echo "Hey";
-    }
 
-
-}
 //require_once __DIR__. '/Classes/AntiXSS.php';
+require_once __DIR__. '/Classes/REQMETHOD.php';
 
 //$antiXss = ANTI_XSS_CORE\AntiXSS::xss_clean($_GET['url']);
