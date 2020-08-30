@@ -1,0 +1,23 @@
+{
+    "name": "abdal-security-agency/abdal-php-waf",
+    "description": "A powerful WAF to Protect the php applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ebrahim Shafiei",
+            "email": "Prof.Shafiei@Gmail.com"
+        }
+    ],
+	  "autoload": {
+    "psr-4": {
+      "ABDALPHPWAF\\": "abdal-security-agency/abdal-php-waf/src/"
+    },
+    "files": ["abdal-security-agency/abdal-php-waf/src/firewall-core.php"]
+  },
+    "minimum-stability": "stable",
+     "require": {
+		"php": ">=5.4.0"
+	}
+  
+}
