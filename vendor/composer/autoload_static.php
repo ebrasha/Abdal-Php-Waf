@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit873cda3898755b94ad12616c26645941
+class ComposerStaticInitd43a31bca344d6a413c942a53202940e
 {
     public static $files = array (
         '42da17ce93f94fdac23e59b4e4c4bff5' => __DIR__ . '/../..' . '/abdal-security-agency/abdal-php-waf/src/firewall-core.php',
@@ -27,8 +27,8 @@ class ComposerStaticInit873cda3898755b94ad12616c26645941
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit873cda3898755b94ad12616c26645941::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit873cda3898755b94ad12616c26645941::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd43a31bca344d6a413c942a53202940e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd43a31bca344d6a413c942a53202940e::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
