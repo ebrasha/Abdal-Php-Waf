@@ -10,8 +10,10 @@
 
 namespace ABDALPHPWAF;
 
+require_once __DIR__ . '/includes/class-request-method-protector.php';
+require_once __DIR__ . '/includes/class-anti-xss.php';
+require_once __DIR__ . '/includes/class-anti-sql-injection.php';
+require_once __DIR__ . '/includes/class-dos-protector.php';
+require_once __DIR__ . '/includes/class-central-utility.php';
+require_once __DIR__ . '/includes/class-anti-crlf.php';
 
-//require_once __DIR__. '/Classes/AntiXSS.php';
-require_once __DIR__. '/Classes/REQMETHOD.php';
-
-//$antiXss = ANTI_XSS_CORE\AntiXSS::xss_clean($_GET['url']);
