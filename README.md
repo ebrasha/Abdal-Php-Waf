@@ -86,7 +86,10 @@ if (\ABDALPHPWAF\File_Download_Controller::extension_controller($get_parameter,$
 
 
 ### About Programmer
-Ebrahim Shafiei   - [WebSite](https://hackers.zone/)
+Ebrahim Shafiei 
+  - Email : Prof.Shafiei@Gmail.com
+  - WebSite https://hackers.zone/
+  - +98 09022223301
 
 
 ## License
