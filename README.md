@@ -69,6 +69,20 @@ if (\ABDALPHPWAF\Anti_CRLF::crlf_detector($_SERVER['REQUEST_URI'])){
 
 
 
+#### File Download Controller (Prevent access to sensitive files)
+
+```php
+$get_parameter = $_GET['file'];
+$white_list_extension = array("rar","7z","zip","apk","exe","mp3","wav","mp4","pdf","docx");
+
+if (\ABDALPHPWAF\File_Download_Controller::extension_controller($get_parameter,$white_list_extension)){
+    echo "Access Denied";
+}
+
+```
+
+
+
 
 
 ### About Programmer

@@ -16,4 +16,5 @@ require_once __DIR__ . '/includes/class-anti-sql-injection.php';
 require_once __DIR__ . '/includes/class-dos-protector.php';
 require_once __DIR__ . '/includes/class-central-utility.php';
 require_once __DIR__ . '/includes/class-anti-crlf.php';
+require_once __DIR__ . '/includes/class-file-download-controller.php';
 

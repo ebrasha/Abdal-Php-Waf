@@ -16,7 +16,10 @@ class Anti_XSS extends Central_Utility
     public static $attack_status = false;
 
 
-
+    /**
+     * @param $uri
+     * @return bool
+     */
     public static function xss_detector($uri)
     {
 
