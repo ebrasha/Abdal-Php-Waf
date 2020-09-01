@@ -67,6 +67,16 @@ if (\ABDALPHPWAF\Anti_CRLF::crlf_detector($_SERVER['REQUEST_URI'])){
 }
 ```
 
+#### Detect RFI Attack 
+
+```php
+if (\ABDALPHPWAF\Anti_RFI::rfi_detector($_SERVER['REQUEST_URI'])){
+    echo "RFI Attack Detected";
+}
+```
+
+
+
 
 
 #### File Download Controller (Prevent access to sensitive files)
@@ -81,7 +91,13 @@ if (\ABDALPHPWAF\File_Download_Controller::extension_controller($get_parameter,$
 
 ```
 
+#### Detect Proxy
 
+```php
+if (\ABDALPHPWAF\PROXY_PROTECTION::proxy_detector()){
+    echo "Proxy Access Denied";
+}
+```
 
 
 
