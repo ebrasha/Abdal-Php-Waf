@@ -99,6 +99,74 @@ if (\ABDALPHPWAF\PROXY_PROTECTION::proxy_detector()){
 }
 ```
 
+#### remove X-Powered-By from Response
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_powered_by();
+```
+
+#### Secure DNS Prefetch Control
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_dns_prefetch_control();
+```
+
+#### Block pages from loading when they detect reflected XSS attacks
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_xss_protection();
+```
+
+
+#### Block Mime Sniffing Attack
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_content_type_options();
+```
+
+#### Set Strict-Transport-Security
+
+```php
+\ABDALPHPWAF\Header_Security::secure_strict_transport_security();
+```
+
+
+#### Anti Click Jacking Attack
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_frame_options_set_deny();
+# OR
+\ABDALPHPWAF\Header_Security::secure_x_frame_options_set_sameorigin();
+
+```
+
+
+#### X-Permitted-Cross-Domain-Policies
+If you don’t want them to load data from your domain
+
+```php
+\ABDALPHPWAF\Header_Security::secure_x_permitted_cross_domain_policies();
+```
+
+
+#### Cache Control Attack
+
+```php
+\ABDALPHPWAF\Header_Security::secure_cache_control();
+```
+
+
+
+#### Cross-Origin Resource Sharing (CORS)
+
+```php
+\ABDALPHPWAF\Header_Security::secure_cross_origin_resource_sharing();
+```
+
+
+
+
+
 
 
 ### About Programmer
