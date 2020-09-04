@@ -102,11 +102,11 @@ if (\ABDALPHPWAF\PROXY_PROTECTION::proxy_detector()){
 
 
 ### About Programmer
-Ebrahim Shafiei from Iran (Ready to cooperate in international projects)
+Ebrahim Shafiei from Iran (Ready to cooperate with international projects)
   - Email : Prof.Shafiei@Gmail.com
   - WebSite https://hackers.zone/
-  - +98 09022223301
+  - Mobile : +98 09022223301
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Abdal Php Waf is open-source software licensed under the [MIT](https://choosealicense.com/licenses/mit/)
