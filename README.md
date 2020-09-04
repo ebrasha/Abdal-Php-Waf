@@ -105,7 +105,6 @@ if (\ABDALPHPWAF\PROXY_PROTECTION::proxy_detector()){
 Ebrahim Shafiei from Iran (Ready to cooperate with international projects)
   - Email : Prof.Shafiei@Gmail.com
   - WebSite https://hackers.zone/
-  - Mobile : +98 09022223301
 
 
 ## License
