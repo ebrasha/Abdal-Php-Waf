@@ -4,7 +4,7 @@ A Powerful Waf To Protect The Php Applications
 
 # How it works
 
-[![Abdal Php Waf-How it works](http://cloud.nahaanbin.com/img/abdal-php-waf.jpg)](https://gitlab.com/Abdal.Group/abdal-php-waf)
+[![Abdal Php Waf-How it works](https://pasteboard.co/Jr8fPYC.jpg)](https://gitlab.com/Abdal.Group/abdal-php-waf)
 
 
 ## Install With Composer
