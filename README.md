@@ -2,16 +2,27 @@
 
 A Powerful Waf To Protect The Php Applications
 
+# How it works
 
-#### Install With Composer
+
+```mermaid
+graph LR
+A[User Request] --  Abdal Php Waf Filtering Attack --> B[Your PHP WebSite Or PHP APP]
+A --> C()
+B --> D{Rhombus}
+C --> D
+```
+
+## Install With Composer
 Use the package manager
+
 
 
 ```bash
 composer require  abdal-security-agency/abdal-php-waf
 ```
 
-#### Usage
+## Usage
 
 Here's a basic usage example: `Use in your main project file`
 
