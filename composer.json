@@ -1,6 +1,26 @@
 {
     "name": "abdal-security-agency/abdal-php-waf",
     "description": "Web Application Firewall (WAF) package to Protect the pure PHP applications",
+    "keywords": [
+    "php",
+    "firewall",
+    "security",
+    "waf",
+    "blacklist",
+    "xss",
+    "sqli",
+    "dos",
+    "crlf",
+    "cache",
+    "detect_proxy",
+    "x_powered_by",
+    "dns",
+    "click_jacking",
+    "mime_sniffing",
+    "set_strict_transport_security",
+    "rfi",
+    "lfi"
+  ],
     "type": "library",
     "license": "MIT",
     "authors": [
