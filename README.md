@@ -172,9 +172,8 @@ If you don’t want them to load data from your domain
 
 
 ### About Programmer
-Ebrahim Shafiei from Iran (Ready to cooperate with international projects)
+Ebrahim Shafiei (EbraSha) - (Ready to cooperate with international projects)
   - Email : Prof.Shafiei@Gmail.com
-  - WebSite https://hackers.zone/
 
 
 ## License
